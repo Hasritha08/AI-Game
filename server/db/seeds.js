@@ -1,6 +1,6 @@
 const { MongoClient } = require("mongodb");
 
-const uri = "mongodb+srv://samarpaninfotech1221:A4hqkMUW7RYF9R3u@quotation.ofzfp.mongodb.net/top";
+const uri = "";
 const client = new MongoClient(uri);
 
 async function seedDatabase() {
